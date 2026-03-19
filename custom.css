@@ -129,7 +129,6 @@
 .custom .face{
     position: absolute;
     background: url(dpad.png);
-    outline: 2px solid red;
 }
 
 .custom .face.up, .custom .face.down, .custom .face.left, .custom .face.right{
@@ -152,13 +151,13 @@
 .custom .face.left{
     top: 81px;
     left: 0px;
-    background-position: 0 0;
+    background-position: -174px 0;
 }
 
 .custom .face.right{
     top: 81px;
     left: 130px;
-    background-position: -174px 0;
+    background-position: 0 0;
 }
 
 .custom .face.pressed{
