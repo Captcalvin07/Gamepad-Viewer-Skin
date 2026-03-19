@@ -15,25 +15,25 @@ position: absolute;
     background: url(abxy.png);
 }
 .custom .button.pressed {
-    background-position-y: -244px;
+    background-position-y: -243px;
 }
 .custom .a{
     background-position: 0 0;
-    top: 16px;
+    top: 15px;
     left: 789px;
 }
 .custom .b{
     background-position: -243px 0;
-    top: 16px;
+    top: 15px;
     left: 1169px;
 }
 .custom .x{
     background-position: -486px 0;
-    top: 16px;
+    top: 15px;
     left: 531px;
 }
 .custom .y{
     background-position: -729px 0;
-    top: 274px;
+    top: 273px;
     left: 1047px;
 }
