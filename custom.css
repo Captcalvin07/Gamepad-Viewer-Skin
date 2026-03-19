@@ -40,10 +40,10 @@
 }
 
 .custom .bumpers {
-    width: 618px;
-    height: 72px;
-    left: 125px;
-    top:  24px;
+    width: 501px;
+    height: 243px;
+    left: 273px;
+    top:  273px;
     position: absolute;
 }
 
@@ -52,22 +52,21 @@
 }
 
 .custom .bumper{
-    width: 179px;
-    height: 70px;
-}
-
-.custom .bumper.pressed {
-    background-position: 178px;
+	background: url(bumper.png);
+    width: 243px;
+    height: 243px;
 }
 
 .custom .bumper.left{
-    float: left;
+    top: 0px;
+    left: 0px;
+    background-position: 0 0;
 }
 
 .custom .bumper.right{
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    top: 0px;
+    left: 258px;
+    background-position: -243px 0;
 }
 
 .custom .sticks {
