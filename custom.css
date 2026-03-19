@@ -7,3 +7,31 @@
 .custom.disconnected {
     background: url(disconnected.png);
 }
+
+.custom .button{
+position: absolute;
+    width: 243px;
+    height: 243px;
+    background: url(abxy.png);
+}
+.custom .button.pressed {
+    background-position-y: -244px;
+}
+.custom .a{
+    background-position: 0 0;
+    top: 105px;
+    left: 50px;
+}
+.custom .b{
+    background-position: -243px 0;
+    top: 50px;
+    right: 0px;
+}
+.custom .x{
+    background-position: -486px 0;
+    top: 50px;
+}
+.custom .y{
+    background-position: -729px 0;
+    left: 50px;
+}
