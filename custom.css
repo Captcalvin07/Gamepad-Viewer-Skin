@@ -86,5 +86,5 @@ position: absolute;
 }
 
 .custom .face.pressed{
-    background-position-y: 87px;
+    background-position-y: -87px;
 }
