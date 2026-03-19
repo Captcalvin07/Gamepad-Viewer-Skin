@@ -64,13 +64,13 @@ position: absolute;
 .custom .face.up{
     top: 0px;
     left: 81px;
-    background-position: 87px 0;
+    background-position: -87px 0;
 }
 
 .custom .face.down{
     top: 130px;
     left: 91px;
-    background-position: 261px 0;
+    background-position: -261px 0;
 }
 
 .custom .face.left{
@@ -82,7 +82,7 @@ position: absolute;
 .custom .face.right{
     top: 81px;
     left: 130px;
-    background-position: 174px 0;
+    background-position: -174px 0;
 }
 
 .custom .face.pressed{
