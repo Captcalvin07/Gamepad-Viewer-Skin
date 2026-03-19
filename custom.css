@@ -47,22 +47,22 @@ position: absolute;
 .custom .dpad.pressed {
     background-position-y: -87px;
 }
-.custom .dpad.left{
+.custom .left{
     background-position: 0 0;
     top: 367px;
     left: 13px;
 }
-.custom .dpad.up{
+.custom .up{
     background-position: -87px 0;
     top: 286px;
     left: 94px;
 }
-.custom .dpad.right{
+.custom .right{
     background-position: -174px 0;
     top: 367px;
     left: 143px;
 }
-.custom .dpad.down{
+.custom .down{
     background-position: -261px 0;
     top: 416px;
     left: 94px;
