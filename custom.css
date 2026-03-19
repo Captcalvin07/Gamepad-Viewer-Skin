@@ -47,16 +47,10 @@ position: absolute;
 }
 
 .custom .face{
-    background: url(d-pad.png);
-    position: absolute;
-}
-.custom .face.up, .custom .face.down{
-    width: 42px;
-    height: 49px;
-}
-.custom .face.left, .custom .face.right{
-    width: 49px;
-    height: 43px;
+position: absolute;
+    width: 87px;
+    height: 87px;
+    background: url(dpad.png);
 }
 .custom .face.up{
     top: 2px;
@@ -68,19 +62,15 @@ position: absolute;
     top: 79px;
     background-position: 228px 0;
 }
-
 .custom .face.left{
     background-position: 0px 0;
-    width: 47px;
-    height: 42px;
     top: 41px;
 }
-
 .custom .face.right{
     top: 41px;
     right: 0px;
     background-position: -92px 0;
 }
-.custom .face.pressed{
-    background-position-y: 47px;
+.custom .face.pressed {
+    background-position-y: -87px;
 }
