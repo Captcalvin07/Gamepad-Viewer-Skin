@@ -21,6 +21,7 @@
 }
 
 .custom .trigger {
+	position: absolute;
     width:243px;
     height:243px;
 	background: url(trigger.png);
