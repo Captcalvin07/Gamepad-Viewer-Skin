@@ -19,19 +19,21 @@ position: absolute;
 }
 .custom .a{
     background-position: 0 0;
-    top: 105px;
-    left: 50px;
+    top: 15px;
+    left: 789px;
 }
 .custom .b{
     background-position: -243px 0;
-    top: 50px;
-    right: 0px;
+    top: 15px;
+    left: 1169px;
 }
 .custom .x{
     background-position: -486px 0;
-    top: 50px;
+    top: 15px;
+    left: 531px;
 }
 .custom .y{
     background-position: -729px 0;
-    left: 50px;
+    top: 273px;
+    left: 1047px;
 }
