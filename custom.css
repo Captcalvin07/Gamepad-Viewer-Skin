@@ -37,3 +37,33 @@ position: absolute;
     top: 273px;
     left: 1047px;
 }
+
+.custom .dpad{
+position: absolute;
+    width: 87px;
+    height: 87px;
+    background: url(dpad.png);
+}
+.custom .dpad.pressed {
+    background-position-y: -87px;
+}
+.custom .dpad.left{
+    background-position: 0 0;
+    top: 367px;
+    left: 13px;
+}
+.custom .dpad.up{
+    background-position: -87px 0;
+    top: 286px;
+    left: 94px;
+}
+.custom .dpad.right{
+    background-position: -174px 0;
+    top: 367ppx;
+    left: 143px;
+}
+.custom .dpad.down{
+    background-position: -261px 0;
+    top: 416px;
+    left: 94px;
+}
