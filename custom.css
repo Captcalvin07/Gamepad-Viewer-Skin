@@ -45,6 +45,7 @@ position: absolute;
 
     top: 286px;
     left: 13px;
+    outline: 2px solid blue;
 }
 
 .custom.disconnected .dpad {
