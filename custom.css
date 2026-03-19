@@ -40,37 +40,51 @@ position: absolute;
 
 .custom .dpad{
     position: absolute;
-    width: 127px;
-    height: 127px;
-    top: 110px;
-    left: 144px;
+    width: 217px;
+    height: 217px;
+
+    top: 286px;
+    left: 13px;
+}
+
+.custom.disconnected .dpad {
+    display: none;
 }
 
 .custom .face{
-position: absolute;
-    width: 87px;
-    height: 87px;
+    position: absolute;
     background: url(dpad.png);
 }
+
+.custom .face.up, .custom .face.down, custom .face.left, .custom .face.right{
+    width: 87px;
+    height: 87px;
+}
+
 .custom .face.up{
-    top: 2px;
-    background-position: 322px 0px;
-    left: 42px;
+    top: 0px;
+    left: 81px;
+    background-position: 87px 0;
 }
+
 .custom .face.down{
-    left: 42px;
-    top: 79px;
-    background-position: 228px 0;
+    top: 130px;
+    left: 91px;
+    background-position: 261px 0;
 }
+
 .custom .face.left{
-    background-position: 0px 0;
-    top: 41px;
+    top: 81px;
+    left: 0px;
+    background-position: 0 0;
 }
+
 .custom .face.right{
-    top: 41px;
-    right: 0px;
-    background-position: -92px 0;
+    top: 81px;
+    left: 130px;
+    background-position: 174px 0;
 }
-.custom .face.pressed {
-    background-position-y: -87px;
+
+.custom .face.pressed{
+    background-position-y: 87px;
 }
