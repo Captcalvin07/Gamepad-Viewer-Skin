@@ -1,43 +1,82 @@
-body {
-    background: transparent;
+.controller.edit {
+  background: url(assets/base.svg);
 }
 
-/* Test button A */
-#button_A {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border: 2px solid black;
-    border-radius: 5px;
-    transition: background-color 0.1s;
+.edit.disconnected {
+  background: url(assets/disconnected.svg);
 }
 
-/* Pressed state */
-#button_A.pressed {
-    background-color: pink;
+.edit .quadrant {
+  display: none;
 }
 
-/* Test left stick */
-#stick_left {
-    position: absolute;
-    top: 200px;
-    left: 100px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: rgba(255,255,255,0.2);
+.edit .p0 {
+    display: none;
 }
 
-#stick_left_knob {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: white;
-    transition: transform 0.05s;
+.edit .p1 {
+    display: none;
+}
+
+.edit .p2 {
+    display: none;
+}
+
+.edit .p3 {
+    display: none;
+}
+
+.edit .back, .edit .start {
+    background: url(assets/start-select.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.edit .back.pressed, .edit .start.pressed {
+    opacity: 1;
+}
+
+.edit .back {
+    float: left;
+}
+
+.edit .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
+.edit .button {
+  position: absolute;
+  background: url(assets/abxy.svg);
+}
+
+.edit .button.pressed {
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.edit .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+}
+
+.edit .b {
+    background-position: -49px 0;
+    top: 57px;
+    right: 3px;
+}
+
+.edit .x {
+    background-position: -98px 0;
+    top: 57px;
+    left: 4px;
+}
+
+.edit .y {
+    background-position: 48px 0;
+    left: 55px;
+    top: 5px;
 }
