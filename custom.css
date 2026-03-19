@@ -54,6 +54,8 @@ position: absolute;
 .custom .face{
     position: absolute;
     background: url(dpad.png);
+    outline: 2px solid red;
+}
 }
 
 .custom .face.up, .custom .face.down, .custom .face.left, .custom .face.right{
@@ -69,7 +71,7 @@ position: absolute;
 
 .custom .face.down{
     top: 130px;
-    left: 91px;
+    left: 81px;
     background-position: -261px 0;
 }
 
@@ -88,3 +90,4 @@ position: absolute;
 .custom .face.pressed{
     background-position-y: -87px;
 }
+
