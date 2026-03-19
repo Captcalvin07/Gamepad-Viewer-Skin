@@ -56,7 +56,6 @@ position: absolute;
     background: url(dpad.png);
     outline: 2px solid red;
 }
-}
 
 .custom .face.up, .custom .face.down, .custom .face.left, .custom .face.right{
     width: 87px;
