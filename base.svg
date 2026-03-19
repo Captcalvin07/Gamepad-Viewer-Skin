@@ -1,0 +1,42 @@
+<svg width="1200" height="600" viewBox="0 0 1300 600">
+  <style>
+    text {
+      font-family: &apos;Renogare&apos;, sans-serif;
+      font-size: 64px;
+      fill: white;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+    .box {
+      fill: #b247ff;
+      stroke: white;
+      stroke-width: 15;
+    }
+  </style>
+  <circle cx="150" cy="171.5" r="114" fill="#b247ff" stroke="white" stroke-width="15"/>
+  <g transform="translate(36,308)">
+    <path d="
+      M81 0
+      h71 v71 h71 v71 h-71 v71 h-71 v-71 h-71 v-71 h71 z
+    " fill="#b247ff" stroke="white" stroke-width="15"/>
+  </g>
+  <rect class="box" x="300" y="50" width="243" height="243"/>
+  <rect class="box" x="543" y="50" width="243" height="243"/>
+  <rect class="box" x="786" y="50" width="243" height="243"/>
+  <rect class="box" x="1029" y="50" width="120" height="243"/>
+  <rect class="box" x="1149" y="50" width="120" height="243"/>
+  <rect class="box" x="300" y="293" width="243" height="243"/>
+  <rect class="box" x="543" y="293" width="243" height="243"/>
+  <rect class="box" x="786" y="293" width="243" height="243"/>
+  <rect class="box" x="1029" y="293" width="121.5" height="243"/>
+  <text x="421.5" y="171.5">Grab</text>
+  <text x="664.5" y="171.5">Dash</text>
+  <text x="907.5" y="171.5">Jump</text>
+  <text x="1089" y="171.5">J2</text>
+  <text x="1209" y="171.5">J3</text>
+  <text x="421.5" y="380">Fast</text>
+  <text x="421.5" y="450">Fall</text>
+  <text x="664.5" y="414.5">Demo</text>
+  <text x="907.5" y="414.5">Pause</text>
+  <text x="1089.75" y="414.5">+J</text>
+</svg>
