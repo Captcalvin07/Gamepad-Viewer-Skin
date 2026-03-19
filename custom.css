@@ -58,10 +58,6 @@
     height: 243px;
 }
 
-.custom .bumper.pressed {
-    background-position-y: -243px;
-}
-
 .custom .bumper.left{
     top: 0px;
     left: 0px;
@@ -74,6 +70,14 @@
     left: 258px;
     background-position: -243px 0;
 	outline: 2px solid red;
+}
+
+.custom .bumper.left.pressed {
+    background-position: 0 -243px;
+}
+
+.custom .bumper.right.pressed {
+    background-position: -243px -243px;
 }
 
 .custom .sticks {
