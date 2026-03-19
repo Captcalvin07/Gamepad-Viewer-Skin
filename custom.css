@@ -9,11 +9,12 @@
 }
 
 .custom .triggers { 
-    width: 1018px;
+    width: 881px;
     height: 243px;
     position: absolute;
     left: 273px;
     top: 15px;
+	outline: 2px solid blue;
 }
 
 .custom.disconnected .trigger {
