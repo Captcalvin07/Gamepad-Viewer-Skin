@@ -9,11 +9,11 @@
 }
 
 .custom .triggers { 
-    width: 581px;
-    height: 47px;
+    width: 881px;
+    height: 243px;
     position: absolute;
-    left: 144px;
-    top: 9px;
+    left: 273px;
+    top: 15px;
 }
 
 .custom.disconnected .trigger {
@@ -21,26 +21,25 @@
 }
 
 .custom .trigger {
-    width:80px;
-    height:46px;
+    width:243px;
+    height:243px;
+	background: url(trigger.png);
 }
 
 .custom .trigger.pressed {
-    background-position: 80px;
-    margin-right: 2px;
+    background-position-y: -243px;
 }
 
 .custom .trigger.left {
-    float: left;
-    margin-left: 1px;
-    margin-top: 1px;
+    top: 0px;
+    left: 0px;
+    background-position: 0 0;
 }
 
 .custom .trigger.right {
-    transform: scaleX(-1);
-    float: right;
-    margin-right: 1px;
-    margin-top; 1px;
+    top: 0px;
+    left: -774px;
+    background-position: -243px 0;
 }
 
 .custom .bumpers {
