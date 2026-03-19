@@ -26,6 +26,7 @@
     width:243px;
     height:243px;
 	background: url(trigger.png);
+	outline: 2px solid red;
 }
 
 .custom .trigger.pressed {
@@ -36,14 +37,12 @@
     top: 0px;
     left: 0px;
     background-position: 0 0;
-	outline: 2px solid red;
 }
 
 .custom .trigger.right {
     top: 0px;
     left: 774px;
     background-position: -243px 0;
-	outline: 2px solid green;
 }
 
 .custom .bumpers {
