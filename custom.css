@@ -14,7 +14,6 @@
     position: absolute;
     left: 273px;
     top: 15px;
-	outline: 2px solid blue;
 }
 
 .custom.disconnected .trigger {
@@ -26,11 +25,6 @@
     width:243px;
     height:243px;
 	background: url(trigger.png);
-	outline: 2px solid red;
-}
-
-.custom .trigger.pressed {
-    background-position-y: -243px;
 }
 
 .custom .trigger.left {
