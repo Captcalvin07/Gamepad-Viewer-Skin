@@ -1,6 +1,9 @@
-
 .controller.custom {
     background: url(base.png); 
     height: 531px;
     width: 1291px;
+}
+
+.custom.disconnected {
+    background: url(disconnected.png);
 }
