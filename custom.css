@@ -2,68 +2,20 @@ body {
     background: transparent;
 }
 
-#gamepad {
-    position: relative;
-    width: 600px; /* adjust for your controller size */
-    height: 350px;
-}
-
-/* Buttons */
-#button_A, #button_B, #button_X, #button_Y,
-#button_LT, #button_RT, #button_LB, #button_RB,
-#button_J2, #button_J3 {
+/* Create a test button */
+#button_A {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: white;
-    border: 2px solid #aaa;
+    top: 100px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: red; /* this is your visible square */
+    border: 2px solid black;
+    border-radius: 5px;
     transition: background-color 0.1s;
 }
 
 /* Pressed state */
-#button_A.pressed, #button_B.pressed, #button_X.pressed, #button_Y.pressed,
-#button_LT.pressed, #button_RT.pressed, #button_LB.pressed, #button_RB.pressed,
-#button_J2.pressed, #button_J3.pressed {
-    background-color: #d9a3ff;
+#button_A.pressed {
+    background-color: pink; /* changes color when pressed */
 }
-
-/* Example positions – adjust to match your controller layout */
-#button_A { top: 150px; left: 500px; }
-#button_B { top: 100px; left: 550px; }
-#button_X { top: 100px; left: 450px; }
-#button_Y { top: 50px; left: 500px; }
-
-#button_LT { top: 10px; left: 100px; }
-#button_RT { top: 10px; left: 500px; }
-#button_LB { top: 50px; left: 150px; }
-#button_RB { top: 50px; left: 450px; }
-
-#button_J2 { top: 10px; left: 500px; } /* your custom mapping */
-#button_J3 { top: 10px; left: 550px; } /* your custom mapping */
-
-/* Analog sticks */
-#stick_left, #stick_right {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: rgba(255,255,255,0.2); /* base circle */
-}
-
-/* Moving knob inside stick */
-#stick_left_knob, #stick_right_knob {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: white;
-    top: 15px;  /* centered inside stick base */
-    left: 15px;
-    transition: transform 0.05s;
-}
-
-/* Left stick position */
-#stick_left { top: 200px; left: 100px; }
-/* Right stick position */
-#stick_right { top: 200px; left: 400px; }
