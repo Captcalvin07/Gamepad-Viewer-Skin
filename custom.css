@@ -58,6 +58,10 @@
     height: 243px;
 }
 
+.custom .bumper.pressed {
+    background-position-y: -243px;
+}
+
 .custom .bumper.left{
     top: 0px;
     left: 0px;
