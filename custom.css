@@ -8,34 +8,105 @@
     background: url(disconnected.png);
 }
 
-.custom .button{
-position: absolute;
-    width: 243px;
-    height: 243px;
-    background: url(abxy.png);
+.custom .triggers { 
+    width: 581px;
+    height: 47px;
+    position: absolute;
+    left: 144px;
+    top: 9px;
 }
-.custom .button.pressed {
-    background-position-y: -243px;
+
+.custom.disconnected .trigger {
+    display: none;
 }
-.custom .a{
-    background-position: 0 0;
-    top: 15px;
-    left: 789px;
+
+.custom .trigger {
+    width:80px;
+    height:46px;
 }
-.custom .b{
-    background-position: -243px 0;
-    top: 15px;
-    left: 1169px;
+
+.custom .trigger.pressed {
+    background-position: 80px;
+    margin-right: 2px;
 }
-.custom .x{
-    background-position: -486px 0;
-    top: 15px;
-    left: 531px;
+
+.custom .trigger.left {
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
 }
-.custom .y{
-    background-position: -729px 0;
-    top: 273px;
-    left: 1047px;
+
+.custom .trigger.right {
+    transform: scaleX(-1);
+    float: right;
+    margin-right: 1px;
+    margin-top; 1px;
+}
+
+.custom .bumpers {
+    width: 618px;
+    height: 72px;
+    left: 125px;
+    top:  24px;
+    position: absolute;
+}
+
+.custom.disconnected .bumpers {
+    display: none;
+}
+
+.custom .bumper{
+    width: 179px;
+    height: 70px;
+}
+
+.custom .bumper.pressed {
+    background-position: 178px;
+}
+
+.custom .bumper.left{
+    float: left;
+}
+
+.custom .bumper.right{
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.custom .sticks {
+    position: absolute;
+    margin-top: 244px;
+    width: 404px;
+    margin-left: 240px;
+    height: 96px;
+}
+
+.custom.disconnected .sticks {
+    display: none;
+}
+
+.custom .stick {
+    position: absolute;
+    height: 95px;
+    width: 98px;
+}
+
+.custom .stick.pressed.left {
+    background-position-x: -105px;
+}
+
+.custom .stick.pressed.right{
+    background-position-x: -105px;
+}
+
+.custom .stick.left{
+    left: 8px;
+}
+	
+.custom .stick.right{
+    top: calc(100% - 95px);
+    left: calc(100% - 128px);
 }
 
 .custom .dpad{
@@ -45,10 +116,13 @@ position: absolute;
 
     top: 286px;
     left: 13px;
-    outline: 2px solid blue;
 }
 
 .custom.disconnected .dpad {
+    display: none;
+}
+
+.custom.disconnected .abxy  {
     display: none;
 }
 
@@ -91,3 +165,45 @@ position: absolute;
     background-position-y: -87px;
 }
 
+.custom .abxy{
+    position: absolute;
+    width: 1291px;
+    height: 531px;
+    top: 0;
+    left: 0;
+}
+
+.custom .button{
+position: absolute;
+    width: 243px;
+    height: 243px;
+    background: url(abxy.png);
+}
+
+.custom .button.pressed {
+    background-position-y: -243px;
+}
+
+.custom .a{
+    background-position: 0 0;
+    top: 15px;
+    left: 789px;
+}
+
+.custom .b{
+    background-position: -243px 0;
+    top: 15px;
+    left: 1169px;
+}
+
+.custom .x{
+    background-position: -486px 0;
+    top: 15px;
+    left: 531px;
+}
+
+.custom.y{
+    background-position: -729px 0;
+    top: 273px;
+    left: 1047px;
+}
