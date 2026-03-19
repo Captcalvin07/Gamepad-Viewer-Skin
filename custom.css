@@ -38,31 +38,31 @@ position: absolute;
     left: 1047px;
 }
 
-.custom .dpad{
+.custom .face{
 position: absolute;
     width: 87px;
     height: 87px;
     background: url(dpad.png);
 }
-.custom .dpad.pressed {
+.custom .face.pressed {
     background-position-y: -87px;
 }
-.custom .left{
+.custom .face.left{
     background-position: 0 0;
     top: 367px;
     left: 13px;
 }
-.custom .up{
+.custom .face.up{
     background-position: -87px 0;
     top: 286px;
     left: 94px;
 }
-.custom .right{
+.custom .face.right{
     background-position: -174px 0;
     top: 367px;
     left: 143px;
 }
-.custom .down{
+.custom .face.down{
     background-position: -261px 0;
     top: 416px;
     left: 94px;
