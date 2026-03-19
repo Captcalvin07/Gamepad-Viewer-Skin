@@ -1,0 +1,118 @@
+/* Base controller area */
+.controller {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  background: transparent;
+}
+
+/* Hide default visuals */
+.controller * {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Base box style */
+.button {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  background: #b247ff;
+  border: 15px solid white;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Renogare", sans-serif;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  white-space: pre-line;
+}
+
+/* Pressed state */
+.pressed {
+  background: #d9a3ff !important;
+  color: black !important;
+}
+
+/* ---------- POSITIONING ---------- */
+
+/* Row 1 */
+.left-trigger { left: 300px; top: 50px; } /* Grab */
+.x { left: 543px; top: 50px; }            /* Dash */
+.a { left: 786px; top: 50px; }            /* Jump */
+
+.right-trigger {
+  left: 1029px;
+  top: 50px;
+  width: 120px;
+}
+
+.b {
+  left: 1149px;
+  top: 50px;
+  width: 120px;
+}
+
+/* Row 2 */
+.left-bumper { left: 300px; top: 293px; }   /* Fastfall */
+.right-bumper { left: 543px; top: 293px; }  /* Crouch dash */
+.back { left: 786px; top: 293px; }          /* Pause */
+
+.y {
+  left: 1029px;
+  top: 293px;
+  width: 121px;
+}
+
+/* ---------- LABELS ---------- */
+
+.left-trigger::after { content: "Grab"; }
+.x::after { content: "Dash"; }
+.a::after { content: "Jump"; }
+
+.right-trigger::after { content: "J2"; }
+.b::after { content: "J3"; }
+
+.left-bumper::after { content: "Fast\A Fall"; }
+.right-bumper::after { content: "C-Dash"; }
+
+.back::after { content: "Pause"; }
+.y::after { content: "+J"; }
+
+/* Center text */
+.button::after {
+  display: block;
+}
+
+/* ---------- JOYSTICK ---------- */
+
+.stick.left {
+  position: absolute;
+  left: 36px;
+  top: 50px;
+  width: 228px;
+  height: 228px;
+  background: #b247ff !important;
+  border: 15px solid white !important;
+  border-radius: 50%;
+}
+
+/* ---------- DPAD ---------- */
+
+.dpad {
+  position: absolute;
+  left: 36px;
+  top: 293px;
+  width: 228px;
+  height: 228px;
+}
+
+/* Optional: hide default dpad arrows */
+.dpad * {
+  display: none !important;
+}
