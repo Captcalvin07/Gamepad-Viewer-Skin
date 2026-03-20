@@ -216,10 +216,12 @@ position: absolute;
     height: 243px;
     background: url(select.png);
     top: 273px;
-    left: 789px;
+    left: 789px
+	outline: 2px solid red;
 }
 
 .custom .start.pressed {
     background-position: 0 -243px;
+	outline: 2px solid blue;
 }
 
