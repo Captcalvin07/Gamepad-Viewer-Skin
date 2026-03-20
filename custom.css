@@ -209,3 +209,17 @@ position: absolute;
     top: 273px;
     left: 1047px;
 }
+
+.custom .select {
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    background: url(select.png);
+    top: 273px;
+    left: 789px;
+}
+
+.custom .select.pressed {
+    background-position: 0 -243px;
+}
+
