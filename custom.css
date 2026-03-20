@@ -61,15 +61,12 @@
 .custom .bumper.left{
     top: 0px;
     left: 0px;
-    background-position: 0 0;
-	outline: 2px solid red;
-}
+    background-position: 0 0;}
 
 .custom .bumper.right{
     top: 0px;
     left: 258px;
     background-position: -243px 0;
-	outline: 2px solid red;
 }
 
 .custom .bumper.left.pressed {
