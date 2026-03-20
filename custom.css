@@ -93,6 +93,10 @@
 	top: 108px;
 }
 
+.custom .stick.right{
+    display: none;
+}
+
 .custom .dpad{
     position: absolute;
     width: 217px;
