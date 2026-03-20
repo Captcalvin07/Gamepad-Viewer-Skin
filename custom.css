@@ -83,14 +83,14 @@
 
 .custom .stick {
     position: absolute;
-    width: 93px;
-    height: 108px;
+    width: 57px;
+    height: 57px;
 	background: url(stick.png);
 }
 
 .custom .stick.left{
-    left: 0px;
-	top: 0px;
+    left: 93px;
+	top: 108px;
 }
 
 .custom .dpad{
