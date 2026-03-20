@@ -210,7 +210,7 @@ position: absolute;
     left: 1047px;
 }
 
-.custom .select {
+.custom .start  {
     position: absolute;
     width: 243px;
     height: 243px;
@@ -219,7 +219,7 @@ position: absolute;
     left: 789px;
 }
 
-.custom .select.pressed {
+.custom .start.pressed {
     background-position: 0 -243px;
 }
 
